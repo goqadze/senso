@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SENSODYNE TRUE White</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #FFFFFF;
+        }
+
+        @font-face {
+            font-family: 'PFHandbookPro-Medium';
+            src: url('fonts/PFHandbookPro-Medium.eot');
+        }
+
+        @font-face {
+            font-family: 'PFHandbookPro-Medium';
+            src: url('fonts/PFHandbookPro-Medium.woff') format('woff'),
+            url('fonts/PFHandbookPro-Medium.svg#PFHandbookPro-Medium') format('svg');
+        }
+
+        @font-face {
+            font-family: 'DS-Digital Italic';
+            src: url('fonts/DS-Digital-Italic.eot');
+        }
+
+        @font-face {
+            font-family: 'DS-Digital Italic';
+            src: url('fonts/DS-Digital-Italic.woff') format('woff'),
+            url('fonts/DS-Digital-Italic.svg#DS-Digital-Italic') format('svg');
+        }
+
+    </style>
+
+    <script src="scripts/jquery-2.1.4.min.js"></script>
+    <script src="scripts/jquery.fancybox.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/fancybox/jquery.fancybox.css">
+
+    <script src="libs/font.js"></script>
+    <script src="libs/howler.min.js"></script>
+    <script src="libs/pixi.js"></script>
+    <script src="libs/pixi.input.js"></script>
+
+    <script src="js/baseScreen.js"></script>
+    <script src="js/screen1.js"></script>
+    <script src="js/screen2.js"></script>
+    <script src="js/screen3.js"></script>
+    <script src="js/startScreen.js"></script>
+    <script src="js/screen5.js"></script>
+    <script src="js/screen6.js"></script>
+    <script src="js/controls.js"></script>
+    <script src="js/character.js"></script>
+    <script src="js/frontLayer.js"></script>
+    <script src="js/backLayer3d.js"></script>
+    <script src="js/manage.js"></script>
+    <script src="js/main.js"></script>
+
+    <script type="text/javascript">
+        $("document").ready(function () {
+            $('a#fancybox').fancybox({
+                closeBtn: true
+            });
+            $('#rules-div').load('terms.html #rules-container');
+        });
+    </script>
+
+    <script>
+        function webglAvailable() {
+            try {
+                var canvas = document.createElement("canvas");
+                return !!
+                        window.WebGLRenderingContext &&
+                    (canvas.getContext("webgl") ||
+                    canvas.getContext("experimental-webgl"));
+            } catch(e) {
+                return false;
+            }
+        }
+
+        var main;
+
+        $(document).ready(function () { 
+            if (webglAvailable()) {
+                main = new Main();
+            } else {
+                alert("WebGL is not supported in your browser. Please use a modern browser to view this content.");
+            }
+        });
+    </script>
+</head>
+<body>
+<div id="canvas" tabindex='1' style="margin:auto; max-width:810px; max-height: 800px;">
+    <div style="display: none">
+        <a href="#message-div" id="fancybox"> Show Message</a>
+        <div id="message-div" style="font-family:'DS-Digital Italic'; color:#FF0000; ">Some content here</div>
+        <div id="rules-div"></div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,172 @@
+{"frames": {
+
+"bar.png":
+{
+	"frame": {"x":1,"y":225,"w":810,"h":82},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":79,"w":810,"h":82},
+	"sourceSize": {"w":810,"h":161}
+},
+"btn-female.png":
+{
+	"frame": {"x":690,"y":68,"w":173,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":173,"h":51},
+	"sourceSize": {"w":173,"h":51}
+},
+"btn-invite-friends.png":
+{
+	"frame": {"x":690,"y":1,"w":179,"h":65},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":179,"h":65},
+	"sourceSize": {"w":179,"h":65}
+},
+"btn-male.png":
+{
+	"frame": {"x":617,"y":839,"w":173,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":173,"h":51},
+	"sourceSize": {"w":173,"h":51}
+},
+"btn-play-again.png":
+{
+	"frame": {"x":690,"y":121,"w":167,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":167,"h":52},
+	"sourceSize": {"w":167,"h":52}
+},
+"btn-play.png":
+{
+	"frame": {"x":617,"y":946,"w":141,"h":57},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":141,"h":57},
+	"sourceSize": {"w":141,"h":57}
+},
+"btn-share.png":
+{
+	"frame": {"x":617,"y":892,"w":167,"h":52},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":167,"h":52},
+	"sourceSize": {"w":167,"h":52}
+},
+"character-left.png":
+{
+	"frame": {"x":1,"y":670,"w":306,"h":352},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":306,"h":352},
+	"sourceSize": {"w":306,"h":352}
+},
+"character-right.png":
+{
+	"frame": {"x":1,"y":309,"w":306,"h":359},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":306,"h":359},
+	"sourceSize": {"w":306,"h":359}
+},
+"character-w-left.png":
+{
+	"frame": {"x":309,"y":670,"w":306,"h":352},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":306,"h":352},
+	"sourceSize": {"w":306,"h":352}
+},
+"character-w-right.png":
+{
+	"frame": {"x":309,"y":309,"w":306,"h":359},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":306,"h":359},
+	"sourceSize": {"w":306,"h":359}
+},
+"character-w.png":
+{
+	"frame": {"x":617,"y":309,"w":192,"h":453},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":192,"h":453},
+	"sourceSize": {"w":192,"h":453}
+},
+"character.png":
+{
+	"frame": {"x":811,"y":309,"w":192,"h":453},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":192,"h":453},
+	"sourceSize": {"w":192,"h":453}
+},
+"checkbox-off.png":
+{
+	"frame": {"x":805,"y":786,"w":26,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":26},
+	"sourceSize": {"w":26,"h":26}
+},
+"checkbox-on.png":
+{
+	"frame": {"x":871,"y":1,"w":26,"h":26},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":26,"h":26},
+	"sourceSize": {"w":26,"h":26}
+},
+"instructions.png":
+{
+	"frame": {"x":1,"y":1,"w":687,"h":222},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":687,"h":222},
+	"sourceSize": {"w":687,"h":222}
+},
+"logo-masoutis.jpg":
+{
+	"frame": {"x":617,"y":786,"w":186,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":186,"h":51},
+	"sourceSize": {"w":186,"h":51}
+},
+"progress-bar.png":
+{
+	"frame": {"x":690,"y":175,"w":211,"h":14},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":211,"h":14},
+	"sourceSize": {"w":211,"h":14}
+},
+"progress-bottom.png":
+{
+	"frame": {"x":690,"y":191,"w":211,"h":14},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":211,"h":14},
+	"sourceSize": {"w":211,"h":14}
+},
+"progress-top.png":
+{
+	"frame": {"x":617,"y":764,"w":218,"h":20},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":218,"h":20},
+	"sourceSize": {"w":218,"h":20}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "SensodyneSheet.png",
+	"format": "RGBA8888",
+	"size": {"w":1004,"h":1023},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a06e583c0ccf962212aa90f31ad9ba61:4665f14f4dbc2502c602f85a2829bf64:ad949f470f3785df8708a681fed76723$"
+}
+}
